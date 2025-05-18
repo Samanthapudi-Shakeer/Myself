@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
-import image_me from './img.png';
+import {image_me} from './img.png';
 
 export default function Hero() {
   return (
