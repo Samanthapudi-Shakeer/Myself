@@ -11,7 +11,7 @@ import Education from './components/Education';
 import Acheivements from './components/Acheivements';
 import ResearchPublications from './components/ResearchPublications';
 
-import MyPhoto from './img.png';
+import MyPhoto from '/img.png';
 import './App.css'; 
 
 function App() {
