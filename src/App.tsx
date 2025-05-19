@@ -11,19 +11,20 @@ import Education from './components/Education';
 import Acheivements from './components/Acheivements';
 import ResearchPublications from './components/ResearchPublications';
 
+import MyPhoto from './img.png';
+import './App.css'; 
+
 function App() {
   const [isMobile, setIsMobile] = useState(false);
   const [showGreeting, setShowGreeting] = useState(true);
 
   useEffect(() => {
-    document.body.style.backgroundColor = '#111827'; // bg-gray-900
+    document.body.style.backgroundColor = '#111827';
 
-    // Basic mobile detection
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const mobileRegex = /android|iphone|ipad|mobile/i;
     setIsMobile(mobileRegex.test(userAgent));
 
-    // Show greeting for 3 seconds
     const timer = setTimeout(() => {
       setShowGreeting(false);
     }, 3000);
@@ -41,10 +42,17 @@ function App() {
 
   if (showGreeting) {
     return (
-      <div className="h-screen flex items-center justify-center bg-gray-900 text-white text-5xl font-bold animate-pulse">
-        Greetings
+      <div
+        className="h-screen w-full flex flex-col items-center justify-center text-amber bg-cover bg-center"
+        style={{ backgroundImage: `url('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-1200-80.jpg')` }} // Place space-bg.jpg in public folder
+      >
+        <img
+          src={MyPhoto}
+          alt="My Photo"
+          className="w-40 h-40 rounded-full mb-6 rounded-sm shadow-lg"
+        />
+        <h1 className="text-5xl font-bold animate-pulse">Greetings</h1>
       </div>
-      
     );
   }
 
@@ -66,4 +74,3 @@ function App() {
 }
 
 export default App;
-
