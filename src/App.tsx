@@ -27,7 +27,7 @@ function App() {
 
     const timer = setTimeout(() => {
       setShowGreeting(false);
-    }, 8000);
+    }, 4500);
 
     return () => clearTimeout(timer);
   }, []);
