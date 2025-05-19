@@ -14,7 +14,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
         >
           <img
-            src="/img.png" // Replace with actual image path or URL
+            src="./img.png" // Replace with actual image path or URL
             alt="Shakeer Samanthapudi"
             className="object-contain w-10 h-20 md:w-60 md:h-60 rounded-full border-0 border-blue-600 shadow-xl scale-85"
           />
