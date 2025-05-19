@@ -49,7 +49,7 @@ function App() {
         <img
           src={MyPhoto}
           alt="My Photo"
-          className="w-40 h-40 rounded-full mb-6 rounded-sm shadow-lg"
+          className="w-60 h-60 rounded-full mb-6 rounded-sm shadow-lg"
         />
         <h1 className="text-5xl font-bold animate-pulse">Greetings</h1>
       </div>
