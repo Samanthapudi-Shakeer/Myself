@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Trophy } from 'lucide-react'; // Trophy icon for achievements
+import { Trophy } from 'lucide-react'; 
 
 const achievementsData = [
   {
