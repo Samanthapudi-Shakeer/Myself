@@ -13,12 +13,12 @@ export default function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          {/*<img
-            src="./img.png" // Replace with actual image path or URL
+          <img
+            src="/img.png" // Replace with actual image path or URL
             alt="Shakeer Samanthapudi"
             className="object-contain w-10 h-20 md:w-60 md:h-60 rounded-full border-0 border-blue-600 shadow-xl scale-85"
           />
-        </motion.div>*/}
+        </motion.div>
 
         {/* Name */}
         <motion.h1 
@@ -57,7 +57,7 @@ export default function Hero() {
             href="#projects" 
             className="px-8 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-colors"
           >
-            View my Projects
+            View My Projects
           </a>
         </motion.div>
 
@@ -79,4 +79,3 @@ export default function Hero() {
     </section>
   );
 }
-
