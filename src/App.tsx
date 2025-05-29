@@ -35,7 +35,8 @@ function App() {
   if (isMobile) {
     return (
       <div className="h-screen flex items-center justify-center bg-gray-900 text-white text-xl">
-        This website is not available on mobile devices.
+        This website is not available on mobile orientation.
+        Please switch to a Desktop Site
       </div>
     );
   }
