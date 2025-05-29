@@ -35,8 +35,8 @@ function App() {
   if (isMobile) {
     return (
       <div className="h-screen flex items-center justify-center bg-gray-900 text-white text-xl">
-        This website is not available on mobile orientation.
-        Please switch to a Desktop Site
+        <p>This website is not available on mobile orientation.</p>
+        <pre>Please switch to a Desktop Site</pre>
       </div>
     );
   }
