@@ -34,10 +34,14 @@ function App() {
 
   if (isMobile) {
     return (
-      <div className="h-screen flex items-center justify-center bg-gray-900 text-white text-xl">
-        <pre>This website is not available on mobile orientation.</pre>
-        <pre>Please switch to a Desktop Site</pre>
-      </div>
+      <div className="h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-800 via-gray-900 to-black text-white px-6 text-center">
+  <div className="p-8 rounded-2xl shadow-2xl bg-gray-950 border border-gray-700 max-w-md w-full animate-pulse">
+    <h1 className="text-3xl font-bold mb-4 text-red-400">⚠️ Mobile View Not Supported</h1>
+    <p className="text-lg text-gray-300 mb-2">This website is optimized for larger screens.</p>
+    <p className="text-md text-gray-400">Please switch to a <span className="text-blue-400 font-semibold">Desktop Site</span> or rotate your device.</p>
+  </div>
+</div>
+
     );
   }
 
