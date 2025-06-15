@@ -2,6 +2,15 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
+  title: 'Machine Learning Intern',
+  company: 'Toshiba Software (India) Pvt. Ltd.',
+  period: 'Jun 2025 – Present',
+  location: 'Bengaluru, Karnataka, India',
+  mode: 'On-site',
+  description: 'Working on object detection using MobileNet for lightweight, real-time vision applications. Developed electricity demand forecasting models for Hot Strip Mills (HSM) using time-series machine learning techniques. Contributed to semiconductor wafer defect detection using computer vision and deep learning. Collaborated closely with senior Toshiba R&D engineers from Japan on industrial-scale AI solutions.',
+  technologies: ['Python', 'MobileNet', 'Time-Series Forecasting', 'Computer Vision', 'Deep Learning']
+},
+  {
     title: 'Research Intern - NLP & XAI',
     company: 'SRM University, AP',
     period: 'Jun 2024 – Present',
