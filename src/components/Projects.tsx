@@ -126,17 +126,7 @@ export default function Projects() {
                     <span>Source</span>
                   </a>
                 </div>
-               //demo link
-               <div className="flex gap-4">
-                
-                  <a 
-                    href={project.links.demo}
-                    className="flex items-center gap-2 text-blue-500 hover:text-blue-400"
-                  >
-                    <Demo size={20} />
-                    <span>Source</span>
-                  </a>
-                </div>
+     
               </div>
             </motion.div>
           ))}
