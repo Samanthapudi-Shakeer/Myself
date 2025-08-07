@@ -41,7 +41,7 @@ const projects = [
   image: os, // Replace with actual screenshot URL if needed
   technologies: ['Flask', 'psutil', 'HTML', 'CSS', 'JavaScript'],
   links: {
-    demo: '#', // 
+    demo: 'https://osutilia.onrender.com/', // 
     github: 'https://github.com/Samanthapudi-Shakeer/Osutilia'
   }
 },
