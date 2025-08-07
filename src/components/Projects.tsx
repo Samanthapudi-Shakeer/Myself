@@ -21,7 +21,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     technologies: ['MERN', 'D3.js', 'ML', 'Flask'],
     links: {
-      demo: '#', // Replace with actual link
+      demo: 'https://statistics-anveshana.vercel.app/', // Replace with actual link
       github: 'https://github.com/Samanthapudi-Shakeer/Statistics-Anveshana' // Example
     }
   },
