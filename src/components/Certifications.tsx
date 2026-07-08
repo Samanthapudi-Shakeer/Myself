@@ -42,7 +42,7 @@ const certifications = [
     issuer: 'DeepLearning.AI',
     date: 'Jan 2024',
     description: 'Completed coursework covering modern data engineering foundations and pipelines.',
-    image: 'https://www.deeplearning.ai/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FDeepLearning-logo.6d0f81f6.png&w=384&q=75'
+    image: 'https://img.icons8.com/?size=512&id=wU62u24brJ44&format=png'
   }
 ];
 
