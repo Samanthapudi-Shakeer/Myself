@@ -11,7 +11,6 @@ import Education from './components/Education';
 import Acheivements from './components/Acheivements';
 import ResearchPublications from './components/ResearchPublications';
 
-import MyPhoto from '/img.png';
 import './App.css'; 
 
 function App() {
@@ -47,16 +46,27 @@ function App() {
 
   if (showGreeting) {
     return (
-      <div
-        className="h-screen w-full flex flex-col items-center justify-center text-amber bg-cover bg-center"
-        style={{ backgroundImage: `url('https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY-1200-80.jpg')` }} // Place space-bg.jpg in public folder
-      >
-        <img
-          src={MyPhoto}
-          alt="My Photo"
-          className="w-60 h-60 rounded-full mb-6 rounded-sm shadow-lg"
-        />
-        <h1 className="text-5xl font-bold animate-pulse">Greetings</h1>
+      <div className="greeting-screen h-screen w-full flex items-center justify-center overflow-hidden px-6 text-white">
+        <div className="greeting-orb greeting-orb-one" />
+        <div className="greeting-orb greeting-orb-two" />
+        <div className="greeting-grid" />
+
+        <div className="greeting-card relative z-10 max-w-4xl text-center">
+          <p className="mb-5 text-sm uppercase tracking-[0.45em] text-cyan-200/80">
+            Welcome to my portfolio
+          </p>
+          <h1 className="greeting-title mb-6 text-6xl font-black md:text-8xl">
+            Greetings
+          </h1>
+          <p className="mx-auto max-w-2xl text-lg leading-8 text-slate-200 md:text-2xl">
+            Exploring AI, Machine Learning, NLP, XAI, GenAI, and full-stack products that turn research into real-world impact.
+          </p>
+          <div className="mt-8 flex justify-center gap-3 text-sm font-semibold text-cyan-100">
+            <span className="greeting-chip">AI/ML</span>
+            <span className="greeting-chip">RAG</span>
+            <span className="greeting-chip">Data Science</span>
+          </div>
+        </div>
       </div>
     );
   }

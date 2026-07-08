@@ -3,16 +3,20 @@ import { PenLine } from 'lucide-react';
 
 const publications = [
   {
-    title: 'Benchmarking Dataset for Dravidian Languages - Ongoing',
-    status: '',
+    title: 'Agentic RAG Framework for Dravidian Language Hate Speech Detection',
+    status: 'May 2026',
   },
   {
-    title: 'Hatespeech Dataset for Telugu Language',
-    status: '',
+    title: 'Dynamic Tool-Driven RAG via MCP for Efficient LLM Reasoning',
+    status: 'Apr 2025',
+  },
+  {
+    title: 'Benchmarking Datasets for Dravidian Languages (ACL)',
+    status: 'May 2025',
   },
   {
     title: 'Sentiment Analysis of Student’s and Parents’ Feedback for Educational Institutes',
-    status: '',
+    status: 'Publishing',
   },
 ];
 

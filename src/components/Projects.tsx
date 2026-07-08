@@ -1,55 +1,65 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import saimage from './sa.png'
 import os from './os.png'
 import crw from './crw.png'
 
 const projects = [
- {
-    title: 'Telugu Sentiment Analysis Dataset',
-    description: 'Benchmarked large-scale sentiment dataset with custom transformer fine-tuning and XAI tools like LIME & SHAP.',
+  {
+    title: 'Benchmarking Datasets for Dravidian Sentiment Analysis',
+    description: 'Developed large-scale Dravidian-language sentiment datasets, collected annotations, fine-tuned IndicBERT, XLM-R, and MuRIL models, scraped hate-speech data, and applied XAI for bias mitigation and interpretability.',
     image: saimage,
-    technologies: ['Python', 'XLM-R', 'IndicBERT', 'XAI'],
+    technologies: ['Deep Learning', 'Machine Learning', 'NLP', 'XAI'],
     links: {
       demo: '#',
-      github: 'https://github.com/Samanthapudi-Shakeer/' // If exists
+      github: 'https://github.com/Samanthapudi-Shakeer/'
+    }
+  },
+  {
+    title: 'AI-Powered Facial Recognition Emotion Analytics System',
+    description: 'Built a real-time webcam-based attendance and emotion analytics system using FaceNet and a scratch CNN, with interval emotion tracking, consensus summaries, timestamps, and stored attendance-emotion metrics.',
+    image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['CNN', 'FaceNet', 'OpenCV', 'FER+2K'],
+    links: {
+      demo: '#',
+      github: 'https://github.com/Samanthapudi-Shakeer/'
     }
   },
   {
     title: 'StatAnveshak',
-    description: 'AI-powered web platform for statistical learning and analysis with interactive visualizations and ML integration.',
+    description: 'AI-driven analytics platform for statistical analysis, machine learning, D3.js visualizations, RAG-based chatbot QA, dynamic quizzes, learning resources, regression, classification, feature projections, and advanced statistical tests.',
     image: 'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    technologies: ['MERN', 'D3.js', 'ML', 'Flask'],
+    technologies: ['MERN', 'ML', 'D3.js', 'RAG'],
     links: {
-      demo: 'https://statistics-anveshana.vercel.app/', // Replace with actual link
-      github: 'https://github.com/Samanthapudi-Shakeer/Statistics-Anveshana' // Example
+      demo: 'https://statistics-anveshana.vercel.app/',
+      github: 'https://github.com/Samanthapudi-Shakeer/Statistics-Anveshana'
     }
   },
   {
     title: 'EduFeed Sense',
-    description: 'Feedback sentiment analysis system using NLP models like Transformers, VADER, and TextBlob with a dashboard.',
+    description: 'Academic feedback intelligence platform with custom NLP pipelines, transformer classification, aspect-level insights, faculty dashboards, and hybrid retrieval using GraphRAG, HyDE, and RAPTOR for multi-hop QA and policy/syllabus intelligence.',
     image: 'https://images.pexels.com/photos/7647959/pexels-photo-7647959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    technologies: ['Flask', 'Transformers', 'NLP', 'Chart.js'],
+    technologies: ['ML', 'NLP', 'GraphRAG', 'RAPTOR'],
     links: {
       demo: '#',
       github: 'https://github.com/Samanthapudi-Shakeer/EDUFEEDSENSE'
     }
   },
   {
-  title: 'Osutilia - System Monitoring',
-  description: 'A dynamic system monitoring tool with a user-friendly web interface to visualize real-time CPU, memory, disk, network, and user activity. Built for simplicity and performance insight.',
-  image: os, // Replace with actual screenshot URL if needed
-  technologies: ['Flask', 'psutil', 'HTML', 'CSS', 'JavaScript'],
-  links: {
-    demo: 'https://osutilia.onrender.com/', // 
-    github: 'https://github.com/Samanthapudi-Shakeer/Osutilia'
-  }
-},
+    title: 'Osutilia - System Monitoring',
+    description: 'A dynamic system monitoring tool with a user-friendly web interface to visualize real-time CPU, memory, disk, network, and user activity for simple performance insight.',
+    image: os,
+    technologies: ['Flask', 'psutil', 'HTML', 'CSS', 'JavaScript'],
+    links: {
+      demo: 'https://osutilia.onrender.com/',
+      github: 'https://github.com/Samanthapudi-Shakeer/Osutilia'
+    }
+  },
   {
     title: 'Expenalyzia',
-    description: 'A dynamic Flask-based expense tracker that allows users to add, edit, and delete expenses with full log history. Advanced filtering by category, date, or person, and real-time visualizations using interactive Pie and Bar charts.',
+    description: 'A Flask-based expense tracker for adding, editing, deleting, and filtering expenses by category, date, or person, with log history and interactive pie and bar charts.',
     image: 'https://images.pexels.com/photos/4386366/pexels-photo-4386366.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    technologies: ['Flask', 'JavaScript', 'HTML', "CSS"],
+    technologies: ['Flask', 'JavaScript', 'HTML', 'CSS'],
     links: {
       demo: '#',
       github: 'https://github.com/Samanthapudi-Shakeer/Expenalyzia'
@@ -57,9 +67,9 @@ const projects = [
   },
   {
     title: 'Empathy Exchange',
-    description: 'A crowdfunding platform that enables users to create empathetic campaigns, share personal stories, and support others through donations. Features include multimedia storytelling, community interaction, and admin moderation.',
+    description: 'Engineered a community-driven crowdfunding web app with campaign creation, help requests, donation workflows, real-time progress tracking, and features for users to upload and support necessities.',
     image: crw,
-    technologies: ['HTML', 'PHP', 'CSS', "JavaScript"],
+    technologies: ['MERN Stack', 'Payment Integration', 'Crowdfunding'],
     links: {
       demo: '#',
       github: 'https://github.com/Samanthapudi-Shakeer/EMPATHY-EXCHANGE-CROWDFUNDING-PLATFORM'
