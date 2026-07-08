@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import {Heart, Code2 , BrainCircuit, FlaskConical, GraduationCap, LayoutDashboard } from 'lucide-react';
+import { Heart, Code2, BrainCircuit, GraduationCap } from 'lucide-react';
 
 const features = [
  {
@@ -20,7 +20,7 @@ const features = [
   {
     icon: GraduationCap,
     title: 'Academics',
-    description: 'Final year B.Tech CSE at SRM AP with a CGPA of 9.24, multiple projects & publications'
+    description: 'Final-year B.Tech CSE student at SRM AP with a CGPA of 9.29, multiple projects, internships, certifications, and publications'
   }
 ];
 
@@ -53,10 +53,10 @@ export default function About() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-              This is Shakeer Samanthapudi, a B.Tech Computer Science pursuing student with a strong focus on Artificial Intelligence & Machine Learning, Natural Language Processing, and Full-stack development. I have crafted impactful projects like StatAnveshak, EduFeed Sense, and Telugu sentiment datasets.
+              This is Shakeer Samanthapudi, a B.Tech Computer Science and Engineering student with a strong focus on Artificial Intelligence & Machine Learning, Natural Language Processing, Explainable AI, Agentic AI, and full-stack development. I have crafted impactful projects like StatAnveshak, EduFeed Sense, Dravidian sentiment-analysis datasets, and facial recognition emotion analytics systems.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              Either it's creating insightful data dashboards, optimizing machine learning pipelines, or organizing tech events, I'm driving by a passion for solving real-world problems through innovative software solutions.
+              Whether I am creating insightful data dashboards, optimizing machine-learning pipelines, building RAG systems, or organizing tech initiatives, I am driven by a passion for solving real-world problems through innovative software solutions.
             </p>
           </motion.div>
 

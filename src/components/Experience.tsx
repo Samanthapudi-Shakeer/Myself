@@ -2,27 +2,27 @@ import { motion } from 'framer-motion';
 
 const experiences = [
   {
-  title: 'Machine Learning Intern',
-  company: 'Toshiba Software (India) Pvt. Ltd.',
-  period: 'Jun 2025 – Present',
-  location: 'Bengaluru, Karnataka, India',
-  mode: 'On-site',
-  description: 'Working on object detection using MobileNet for lightweight, real-time vision applications. Developed electricity demand forecasting models for Hot Strip Mills (HSM) using time-series machine learning techniques. Contributed to semiconductor wafer defect detection using computer vision and deep learning. Collaborated closely with senior Toshiba R&D engineers from Japan on industrial-scale AI solutions.',
-  technologies: ['Python', 'MobileNet', 'Time-Series Forecasting', 'Computer Vision', 'Deep Learning']
-},
-  {
-    title: 'Research Intern - NLP & XAI',
-    company: 'SRM University, AP',
-    period: 'Jun 2024 – Present',
-    description: 'Conducting cutting-edge research in Natural Language Processing with a focus on sentiment analysis and explainable AI. Fine-tuned transformer models (XLM-R, IndicBERT) and integrated LIME/SHAP to improve model interpretability and fairness across linguistic datasets.',
-    technologies: ['Python', 'Transformers', 'Hugging Face', 'LIME', 'SHAP']
+    title: 'Artificial Intelligence & Machine Learning Intern',
+    company: 'Toshiba Software India Private Limited',
+    period: 'Jun 2025 – Present',
+    location: 'Bengaluru, Karnataka, India',
+    mode: 'On-site',
+    description: 'Worked alongside senior Japanese R&D engineers on ResNet x MobileNet-based object detection. Developed a ResNet object detection model, real-time intrusion detection, an advanced RAG chatbot for internal HR/QMS/FAQs, a digitalized project plan portal with analytics, an AI-enhanced translator service, and a Process Compliance Index audit agent.',
+    technologies: ['ResNet', 'MobileNet', 'Object Detection', 'RAG', 'Analytics']
   },
-    {
-    title: 'Summer Intern – SAP Systems',
-    company: 'KCP Sugar & Industries Corp.',
-    period: 'Jan 2024 – Feb 2024',
-    description: 'Worked on enterprise SAP systems and ABAP development for ERP workflows. Collaborated with the IT department to enhance internal automation and streamline network-based configurations.',
-    technologies: ['SAP', 'ABAP', 'Networking', 'ERP']
+  {
+    title: 'Full-Stack Developer',
+    company: 'Freelance / Open Source / Personal',
+    period: '2022 – Present',
+    description: 'Designed and developed full-stack applications including StatAnveshak, EduFeed Sense, Osutilia, Expenalyzia, and Empathy Exchange. Integrated ML models into web apps using Flask APIs and built dynamic data visualizations.',
+    technologies: ['MERN', 'Flask', 'D3.js', 'MongoDB', 'Machine Learning']
+  },
+  {
+    title: 'Machine Learning Research Intern',
+    company: 'SRM University – AP',
+    period: 'Jun 2023 – Jun 2025',
+    description: 'Focused on Dravidian-language sentiment analysis with Explainable AI. Fine-tuned transformer models, built hyperparameter-optimized NLP models, and applied LIME and SHAP for interpretability and bias mitigation.',
+    technologies: ['Python', 'Transformers', 'LIME', 'SHAP', 'Dravidian NLP']
   },
   {
     title: 'Co-Convener & Event Organizer',
@@ -32,11 +32,11 @@ const experiences = [
     technologies: ['Leadership', 'Event Planning', 'Mentorship', 'GitHub']
   },
   {
-    title: 'Full-Stack Developer',
-    company: 'Freelance / Open Source / Personal',
-    period: '2022 – Present',
-    description: 'Designed and developed full-stack applications including StatAnveshak, EduFeed Sense, and Expenalyzia. Integrated ML models into web apps using Flask APIs and built dynamic visualizations',
-    technologies: ['MERN', 'Flask', 'D3.js', 'MongoDB', 'Machine Learning']
+    title: 'Summer Intern',
+    company: 'KCP Sugar and Industries Corporation – Vuyyuru',
+    period: 'Jan 2024 – Feb 2024',
+    description: 'Worked with the IT team on SAP-based network and system management. Gained hands-on experience with ABAP programming, ERP workflows, weighbridge integrations, pay-bill workflows, and time-series forecasting for sugar sales.',
+    technologies: ['SAP', 'ABAP', 'ERP', 'Networking', 'Time-Series Forecasting']
   }
 ];
 

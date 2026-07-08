@@ -4,10 +4,10 @@ import { Trophy } from 'lucide-react';
 const achievementsData = [
   {
     title: 'Winners',
-    description: 'Smart India Hackathon Internal 2024, SRM University',
+    description: 'Smart India Hackathon Internal 2024 and 2025, SRM University',
   },
   {
-    title: 'Runner-ups',
+    title: 'Winners',
     description: 'Autonomous AI Hackathon 2025, Siddhartha Academy (VRSEC)',
   },
   {
