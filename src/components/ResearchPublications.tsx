@@ -3,12 +3,12 @@ import { PenLine } from 'lucide-react';
 
 const publications = [
   {
-    title: 'Agentic RAG Framework for Dravidian Language Hate Speech Detection',
+    title: 'Agentic RAG Framework for Dravidian Language Hate Speech Detection (International Conference for Intelligent Computing - ICST)',
     status: 'May 2026',
   },
   {
-    title: 'Dynamic Tool-Driven RAG via MCP for Efficient LLM Reasoning',
-    status: 'Apr 2025',
+    title: 'Dynamic Tool-Driven RAG via MCP for Efficient LLM Reasoning (ACL)',
+    status: 'Nov 2025',
   },
   {
     title: 'Benchmarking Datasets for Dravidian Languages (ACL)',
@@ -16,7 +16,7 @@ const publications = [
   },
   {
     title: 'Sentiment Analysis of Student’s and Parents’ Feedback for Educational Institutes',
-    status: 'Publishing',
+    status: 'Literature in progress',
   },
 ];
 
