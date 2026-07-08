@@ -4,21 +4,21 @@ import { BookOpen } from 'lucide-react'; // Icon for education
 const educationData = [
   {
     degree: 'B.Tech in CSE',
-    duration: '2021 – Present',
+    duration: '2022 – 2026',
     institution: 'SRM University – AP',
      board : 'BoS',
-    score: 'CGPA: 9.24 / 10',
+    score: 'CGPA: 9.29 / 10',
   },
   {
     degree: 'Intermediate - MPC',
-    duration: '2019 – 2021',
-    institution: 'Sri Viswasanthi Institutes',
+    duration: '2020 – 2022',
+    institution: 'M.P.R.M Sri Viswasanthi Educational Institutions',
      board : 'BIEAP',
     score: 'Score: 941 / 1000',
   },
   {
     degree: 'Secondary School Certificate',
-    duration: '2017 – 2019',
+    duration: '2019 – 2020',
     institution: 'Sri Chaitanya Techno School',
     board : 'BSEAP',
     score: 'Score: 600 / 600',

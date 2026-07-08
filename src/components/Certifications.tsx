@@ -3,32 +3,46 @@ import py from './py.png';
 
 const certifications = [
   {
-    title: 'AWS Cloud Practitioner Associate',
-    issuer: 'Amazon Web Services',
-    date: 'Apr 2025',
-    description: 'Certified in foundational AWS cloud concepts including compute, storage, networking, and billing.',
+    title: 'Gen AI with LLMs',
+    issuer: 'AWS',
+    date: 'May 2026',
+    description: 'Completed training in generative AI and large language model foundations and applications.',
     image: 'https://img.icons8.com/?size=512&id=wU62u24brJ44&format=png'
   },
   {
-    title: 'Machine Learning',
+    title: 'AWS Cloud Practitioner Associate - CLF C02',
+    issuer: 'Amazon Web Services',
+    date: 'Apr 2025',
+    description: 'Certified in foundational AWS cloud concepts including compute, storage, networking, security, and billing.',
+    image: 'https://img.icons8.com/?size=512&id=wU62u24brJ44&format=png'
+  },
+  {
+    title: 'GenAI Foundations',
+    issuer: 'Microsoft',
+    date: 'May 2025',
+    description: 'Completed foundational training in generative AI concepts, tooling, and responsible use.',
+    image: 'https://img.icons8.com/?size=512&id=22989&format=png'
+  },
+  {
+    title: 'Machine Learning Specialization',
     issuer: 'Stanford University – DeepLearning.AI',
     date: 'Jun 2024',
-    description: 'Completed Andrew Ng’s course covering supervised learning, regularization, and ML best practices.',
+    description: 'Completed Andrew Ng’s specialization covering supervised learning, regularization, model evaluation, and ML best practices.',
     image: 'https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png'
   },
   {
-    title: 'Python Programming',
+    title: 'Python',
     issuer: 'NPTEL – IIT Madras',
     date: 'Jan 2024',
     description: 'Learned Python fundamentals, data structures, object-oriented concepts, and problem solving.',
-    image: 'https://img.icons8.com/?size=128&id=uLDrtp8o8zTG&format=png'
+    image: py
   },
   {
-    title: 'AWS Fundamentals',
-    issuer: 'AWS – Coursera',
-    date: '2023',
-    description: 'Gained hands-on experience with core AWS services through project-based learning on Coursera.',
-    image: 'https://img.icons8.com/?size=512&id=wU62u24brJ44&format=png'
+    title: 'Data Engineering Specialization',
+    issuer: 'DeepLearning.AI',
+    date: 'Jan 2024',
+    description: 'Completed coursework covering modern data engineering foundations and pipelines.',
+    image: 'https://www.deeplearning.ai/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2FDeepLearning-logo.6d0f81f6.png&w=384&q=75'
   }
 ];
 

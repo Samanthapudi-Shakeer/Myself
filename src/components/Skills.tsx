@@ -1,18 +1,23 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-  { name: 'Data Science' },
-  { name: 'Machine Learning' },
-  { name: 'NLP' },
-  { name: 'MERN Stack' },
-  { name: 'Explainable AI' },
-  { name: 'Flask' },
-  { name: 'Git & GitHub' },
+  { name: 'C' },
+  { name: 'C++' },
   { name: 'Python' },
   { name: 'Java' },
-  { name: 'C' },
-  { name: 'CPP' },
-  { name: 'Data Visualization' }
+  { name: 'Machine Learning' },
+  { name: 'Deep Learning' },
+  { name: 'NLP' },
+  { name: 'Explainable AI' },
+  { name: 'Generative AI' },
+  { name: 'Agentic AI' },
+  { name: 'MERN Stack' },
+  { name: 'Flask' },
+  { name: 'Git & GitHub' },
+  { name: 'Data Visualization' },
+  { name: 'Data Science' },
+  { name: 'Hybrid ML-MERN' },
+  { name: 'Hybrid GenAI-Data Science' }
 ];
 
 export default function Skills() {

@@ -49,7 +49,7 @@ export default function Contact() {
               {[
                 { icon: Mail, label: 'Email', value: 'shakeer.samanthapudi@gmail.com' },
                 { icon: Phone, label: 'Phone', value: '91+ 8688814287' },
-                { icon: MapPin, label: 'Location', value: 'Vijayawada, Andhra Pradesh, India' }
+                { icon: MapPin, label: 'Location', value: 'Andhra Pradesh, India' }
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-blue-500">
