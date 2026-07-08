@@ -16,6 +16,16 @@ const projects = [
     }
   },
   {
+    title: 'Agentic RAG Framework for Dravidian Language Hate Speech Detection',
+    description: 'Developed an explainable, self-improving Agentic RAG framework for Telugu-English code-mixed hate speech detection that combines semantic retrieval, LLM reasoning, human review, and feedback-driven memory updates to achieve high accuracy without repeatedly retraining the underlying language model.',
+    image: 'https://images.pexels.com/photos/8386422/pexels-photo-8386422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    technologies: ['Agentic RAG', 'LLM Reasoning', 'Human Review', 'Dravidian NLP'],
+    links: {
+      demo: '#',
+      github: 'https://github.com/Samanthapudi-Shakeer/'
+    }
+  },
+  {
     title: 'AI-Powered Facial Recognition Emotion Analytics System',
     description: 'Built a real-time webcam-based attendance and emotion analytics system using FaceNet and a scratch CNN, with interval emotion tracking, consensus summaries, timestamps, and stored attendance-emotion metrics.',
     image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
